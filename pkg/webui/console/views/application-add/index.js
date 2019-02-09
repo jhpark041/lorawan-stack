@@ -102,7 +102,6 @@ export default class Add extends React.Component {
       resetForm({ application_id, name, description })
       setSubmitting(false)
     }
-
   }
 
   render () {
@@ -136,7 +135,6 @@ export default class Add extends React.Component {
                 name="name"
                 type="text"
                 placeholder={m.appNamePlaceholder}
-                required
               />
               <Field
                 title={sharedMessages.description}
